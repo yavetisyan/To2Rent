@@ -1,11 +1,15 @@
 @media(max-width:992px){
 	.search__form{
 		flex-wrap: wrap;
+		padding: 0	15px;
 	}
 	.search__form-labe {
 		width: 100%;
 		margin-bottom: 20px;
 		text-align: center;
+	}
+	.search__form-labe{
+		margin-right: 0;
 	}
 }
 
@@ -48,4 +52,7 @@
   .menu__list-link {
     padding: 20px 10px;
   }
+	.search__form-input{
+		margin-bottom: 20px;
+	}
 }
