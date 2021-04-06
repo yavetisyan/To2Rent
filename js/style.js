@@ -5,5 +5,13 @@ $(document).ready(function () {
     nextArrow:
       '<button class="slick-arrow slick-next">	<img src="images/next.svg" alt="next arrow">	</button>',
     fade: true,
+		responsive:[
+			{
+				breackpoint: 441,
+				settings:{
+					arrows:false
+				}
+			}
+		]
   });
 });
